@@ -17,16 +17,16 @@ module.exports.config = {
 module.exports.run = async({api,event,args,Users,global,Currencies}) => {
 var callback = () => api.sendMessage(
   {body:`梁ADMIN BOT梁\n
-  \n👀 Tên: Nguyễn Việt Đức (Duck)
-  \n❎ Tuổi: 15
+  \n👀 Họ và tên : Cao Đăng Quốc Anh
+  \n❎ Tuổi: 17
   \n👤 😶 Giới tính: Nam
-  \n💫 Chiều cao cân nặng: 1m6 43kg
-  \n💘 Mối quan hệ: Độc thân
-  \n😎 Quê quán: Đồng Tháp 
-  \n🤔 Nơi ở: An Phong
+  \n💫 Chiều cao cân nặng: 1m71 61kg
+  \n💘 Mối quan hệ: Hẹn hò
+  \n😎 Quê quán: Phủ Lý ( 90 Hà Nam )
+  \n🤔 Nơi ở: Tiên Tân 
   \n👫 Gu: Thích mình là được:<
   \n🌸 Tính cách: Là một con người Fboiz nhưng khi yêu xong rất là tềnh cảm :3
-  \n👉 Profile: https://facebook.com/Ducvjp.Admin.2006`,
+  \n👉 Profile: https://www.facebook.com/quocanhthuy2004,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
